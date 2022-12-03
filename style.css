@@ -142,6 +142,7 @@ img {
 .welcome-section img {
   height:  250px;
   border-radius: 50%;
+  width: 100%;
   border: 5px solid #221552;
   filter: saturate(30%);
   transition: filter 0.5s;
