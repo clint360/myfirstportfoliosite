@@ -11,5 +11,5 @@ showall.addEventListener('click', () =>
     all.style.display = "none";
     showall.textContent = "Show More >";
   }
- })
+ });
 
