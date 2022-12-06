@@ -5,11 +5,11 @@ showall.addEventListener('click', () =>
 {
   count++;
   all.style.display = "block";
-  showall.textContent = "< Show less";
+  showall.innerHTML= "< Show less";
   if (count>1){
     count=0;
     all.style.display = "none";
-    showall.textContent = "Show More >";
+    showall.innerHTML= "Show More >";
   }
  });
 
